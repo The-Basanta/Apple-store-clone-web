@@ -319,21 +319,6 @@ a { color: inherit; }
 
 .drawer-header h3 { margin: 0; font-size: 22px; font-weight: 700; letter-spacing: -0.02em; }
 
-.close-btn {
-    font-size: 22px;
-    background: var(--bg);
-    border: none;
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    cursor: pointer;
-    line-height: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background-color 0.2s ease;
-}
-
 .close-btn:hover { background-color: var(--line); }
 
 .drawer-body { padding: 24px; flex-grow: 1; overflow-y: auto; }
