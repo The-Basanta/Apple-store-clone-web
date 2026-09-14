@@ -153,14 +153,6 @@ productGrid.addEventListener('click', (e) => {
     }
 });
 
-cartItemsContainer.addEventListener('click', (e) => {
-    const id = parseInt(e.target.dataset.id);
-    if (e.target.classList.contains('remove-button')) {
-        removeFromCart(id);
-    } else if (e.target.classList.contains('qty-btn')) {
-        changeQuantity(id, e.target.dataset.action === 'inc' ? 1 : -1);
-    }
-});
 
 checkoutBtn.addEventListener('click', () => {
     showToast('This is a demo — no real checkout yet.');
